@@ -1,0 +1,104 @@
+/* 1. Estilizando o HEADER */
+header {
+    background-color: #000000;
+    /* Azul Escuro / Cor principal da marca */
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    /* Permite colocar o H1 e o NAV lado a lado */
+    justify-content: space-between;
+    /* Distribui o logo à esquerda e o menu à direita */
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para profundidade */
+}
+
+/* Estilizando o título/logo */
+header h1 {
+    margin: 0;
+    font-size: 3.0em;
+    letter-spacing: 1px;
+}
+
+/* 2. Estilizando o NAV (Menu de Navegação) */
+nav ul {
+    list-style: none;
+    /* Remove os marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Coloca os itens do menu na horizontal */
+}
+
+nav li {
+    margin-left: 25px;
+    /* Espaçamento entre os itens do menu */
+}
+
+/* 3. Estilizando os Links */
+nav a {
+    color: white;
+    text-decoration: none;
+    /* Remove o sublinhado padrão */
+    font-weight: merryweather;
+    padding: px 0;
+    transition: color 0.3s;
+    /* Adiciona transição suave para o hover */
+}
+
+nav a:hover {
+    color: #ff9900;
+    border-bottom: 2px solid #ff9900;
+    /* Linha de destaque ao passar o mouse */
+}
+
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+
+/* --- 1. Estilização Geral do Footer (Sem Alteração) --- */
+footer {
+  background-color: #ffffff; /* tom escuro para contraste */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.footer-social {
+  margin-bottom: 10px;
+}
+
+
+.footer-social a {
+  display: inline-block;
+  margin: 0 12px;
+  transition: transform 0.3s ease;
+}
+
+
+.footer-social a:hover {
+  transform: scale(1.15);
+}
+
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  /*filter: brightness(0) invert(1);*/ /* deixa o ícone branco se for PNG escuro */
+}
+
+
+.footer-bottom p {
+  font-size: 0.9rem;
+  color: #000000;
+  margin: 4px 0;
+}
+
